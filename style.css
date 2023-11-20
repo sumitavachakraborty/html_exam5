@@ -149,7 +149,7 @@ header {
   border-radius: 10px;
 }
 
-.project-button {
+.project-button:hover {
   background-color: var(--main-background-color);
   color: white;
 }
@@ -551,7 +551,7 @@ footer>div>ul {
     width: 100%;
     padding: 0 2rem;
   }
-
+  
   .banner {
     height: 50vh;
     background-position: right center;
@@ -615,7 +615,9 @@ footer>div>ul {
   form {
     grid-template-columns: 1fr;
   }
-
+  .experience__text>img {
+    width: 80%;
+  }
   .support-section [type="submit"] {
     grid-column: span 1;
   }
