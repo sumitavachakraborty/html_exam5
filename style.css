@@ -183,7 +183,7 @@ header {
 .experience__heading>span {
   color: var(--main-button-color);
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .experience__heading>strong {
